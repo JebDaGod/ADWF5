@@ -1,0 +1,64 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #fafafa;
+  color: #262626;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+/* Product card layout */
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 20px;
+}
+
+.cart {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.cart h2 {
+  margin-bottom: 15px;
+}
+
+.cart-item button:hover {
+  background-color: #990000;
+}
+
+/* CSS generated with help from generative AI for the shopping cart total. */
+.cart-total {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #333;
+  text-align: right;
+}
+
+.cart-total h3 {
+  margin: 0;
+  font-size: 20px;
+}

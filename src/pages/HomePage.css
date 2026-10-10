@@ -1,0 +1,24 @@
+.home-page {
+    width: 100%;
+}
+
+.about-store {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.about-store h2 {
+    margin-bottom: 15px;
+}
+
+.about-store p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* CSS generated with help from generative AI */

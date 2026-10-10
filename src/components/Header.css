@@ -1,0 +1,45 @@
+header {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-display { 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    margin-left: 10px; 
+} 
+.cart-icon { 
+    font-size: 24px; 
+} 
+/* CSS generated with help from generative AI for the cart count badge. */ 
+.cart-badge { 
+    position: absolute; 
+    top: -10px; 
+    right: -12px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: #cc0000; 
+    color: white; 
+    font-size: 12px; 
+    font-weight: bold; 
+}

@@ -1,0 +1,29 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item h3 {
+    margin: 0 0 5px;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+/* CSS generated with help from generative AI for the cart item layout and remove button. */
+.cart-item button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cc0000;
+    color: white;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #990000;
+}
